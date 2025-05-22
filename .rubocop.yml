@@ -9,3 +9,7 @@ plugins:
 
 AllCops:
   NewCops: enable
+
+#Temporarily
+Style/Documentation:
+  Enabled: false
