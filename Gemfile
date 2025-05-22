@@ -21,6 +21,15 @@ group :development, :test do
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
   gem "dotenv-rails", "~> 3.1", ">= 3.1.8"
+
+  # Testing
+  gem 'capybara', '~> 3.40'
+  gem 'cuprite', '~> 0.17'
+  gem 'database_cleaner-active_record', '~> 2.2', '>= 2.2.1'
+  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.4'
+  gem 'rspec-rails', '~> 8.0'
+  gem 'shoulda-matchers', '~> 6.5'
+  gem 'test-prof', '~> 1.4', '>= 1.4.4'
 end
 
 group :development do
