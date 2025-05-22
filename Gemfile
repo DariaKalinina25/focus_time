@@ -19,8 +19,18 @@ gem "thruster", require: false
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
-  gem "rubocop-rails-omakase", require: false
   gem "dotenv-rails", "~> 3.1", ">= 3.1.8"
+
+  # Code quality
+  gem 'rubocop', '~> 1.75', '>= 1.75.7', require: false
+  gem 'rubocop-capybara', '~> 2.22', '>= 2.22.1', require: false
+  gem 'rubocop-factory_bot', '~> 2.27', '>= 2.27.1', require: false
+  gem 'rubocop-performance', '~> 1.25', require: false
+  gem 'rubocop-rails', '~> 2.32', require: false
+  gem 'rubocop-rspec', '~> 3.6', require: false
+  gem 'rubocop-rspec_rails', '~> 2.31', require: false
+  gem 'rubocop-slim', '~> 0.3.0', require: false
+  gem 'slim_lint', '~> 0.33.0', require: false
 
   # Testing
   gem 'capybara', '~> 3.40'
