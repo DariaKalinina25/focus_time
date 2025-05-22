@@ -6,16 +6,20 @@ default: &default
 development:
   <<: *default
   database: focus_time_development
+  username: postgres
+  password:
 
 test:
   <<: *default
   database: focus_time_test
+  username: postgres
+  password:
 
 production:
   primary: &primary_production
     <<: *default
     database: focus_time_production
-    username: focus_time
+    username: <%= ENV["FOCUS_TIME_DATABASE_USER"] %>
     password: <%= ENV["FOCUS_TIME_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
