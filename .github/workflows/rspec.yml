@@ -43,7 +43,7 @@ jobs:
         run: bundle install
 
       - name: Set up database
-        run: bin/rails db:create db:schema:load --trace
+        run: bin/rails db:create db:migrate --trace
 
       - name: Run RSpec
         run: bundle exec rspec
