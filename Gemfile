@@ -3,6 +3,9 @@
 source 'https://rubygems.org'
 
 gem 'bootsnap', require: false
+gem 'bootstrap', '~> 5.3', '>= 5.3.5'
+gem 'dartsass-rails', '~> 0.5.1'
+gem 'devise', '~> 4.9', '>= 4.9.4'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
