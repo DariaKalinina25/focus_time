@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'bootsnap', require: false
+gem 'devise', '~> 4.9', '>= 4.9.4'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
