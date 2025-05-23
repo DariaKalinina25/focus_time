@@ -19,6 +19,8 @@ gem 'stimulus-rails'
 gem 'thruster', require: false
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[windows jruby]
+gem 'bootstrap', '~> 5.3', '>= 5.3.5'
+gem 'dartsass-rails', '~> 0.5.1'
 
 group :development, :test do
   gem 'brakeman', require: false
