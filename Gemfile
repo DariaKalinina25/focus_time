@@ -3,6 +3,8 @@
 source 'https://rubygems.org'
 
 gem 'bootsnap', require: false
+gem 'bootstrap', '~> 5.3', '>= 5.3.5'
+gem 'dartsass-rails', '~> 0.5.1'
 gem 'devise', '~> 4.9', '>= 4.9.4'
 gem 'importmap-rails'
 gem 'jbuilder'
@@ -19,8 +21,6 @@ gem 'stimulus-rails'
 gem 'thruster', require: false
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[windows jruby]
-gem 'bootstrap', '~> 5.3', '>= 5.3.5'
-gem 'dartsass-rails', '~> 0.5.1'
 
 group :development, :test do
   gem 'brakeman', require: false
