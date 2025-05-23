@@ -10,6 +10,7 @@ gem 'pg', '~> 1.1'
 gem 'propshaft'
 gem 'puma', '>= 5.0'
 gem 'rails', '~> 8.0.2'
+gem 'slim-rails', '~> 3.7'
 gem 'solid_cable'
 gem 'solid_cache'
 gem 'solid_queue'
@@ -17,7 +18,6 @@ gem 'stimulus-rails'
 gem 'thruster', require: false
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[windows jruby]
-gem 'slim-rails', '~> 3.7'
 
 group :development, :test do
   gem 'brakeman', require: false
